@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/import.ts',
+  entry: './src/addAll.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
